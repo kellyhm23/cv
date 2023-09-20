@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curriculum Vitae</title>
+        <link rel="stylesheet" href="CSS/estilos.css">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        <link rel="shortcut icon" href="Icono/usuario.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="Contenido_CV">
+            <div class="Columna_Izq">
+                <div class="FotoPerfil">
+                    <img src="https://randomuser.me/api/portraits/men/60.jpg" alt="Tu navegador no soporta el elemento Imagen. Ingresa con un navegador más actual">
+                </div>
+                <div class="Fondo_CV">
+                    <div class="Item Nombre_y_Ocupacion">
+                        <div class="Nombre">Jorge Ruíz</div>
+                        <div class="Ocupacion">Instructor de Yoga</div>
+                    </div>
+                    <div class="Item Perfil">
+                        <div class="Titulo">Perfil</div>
+                        <div class="Informacion"> 
+                            <p> 
+                                Experto en yoga, pilates, salud y acondicionamiento físico. Estoy especializado en la creación 
+                                de programas de ejercicios para satisfacer las necesidades de mis clientes.
+                                Con energía y mucha determinación animo a mis clientes para alcanzar sus objetivos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Item Datos_Personales">
+                        <div class="Titulo">Datos Personales</div>
+                        <div class="Informacion">
+                            <ul>
+                                <li> Nombre: Jorge </li>
+                                <li> Apellido: Ruíz </li>
+                                <li> Documento: 39.403.967 </li>
+                                <li> Edad: 26  </li>
+                                <li> Fecha de nacimiento: 04/10/1996 </li>
+                                <li> Lugar de nacimiento: San Carlos De Bariloche </li>
+                                <li> Nacionalidad: Argentina </li>
+                                <li> Domicilio: Calle Nº5 </li>
+                                <li> Teléfono: (940) 511-4046 </li>
+                                <li> Email: jorge.ruiz@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Item Habilidades">
+                        <div class="Titulo">Habilidades</div>
+                        <div class="Informacion">
+                            <div class="Lista_de_Habilidades">
+                                <div class="DescripcionHabilidad">Yoga</div>
+                                <div class="Barra_de_Habilidad">
+                                    <p>
+                                        <span style="width: 90%"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="Lista_de_Habilidades">
+                                <div class="DescripcionHabilidad">Pilates</div>
+                                <div class="Barra_de_Habilidad">
+                                    <p>
+                                        <span style="width: 90%"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="Lista_de_Habilidades">
+                                <div class="DescripcionHabilidad">Nutrición</div>
+                                <div class="Barra_de_Habilidad">
+                                    <p>
+                                        <span style="width: 75%"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="Lista_de_Habilidades">
+                                <div class="DescripcionHabilidad">Computación</div>
+                                <div class="Barra_de_Habilidad">
+                                    <p>
+                                        <span style="width: 65%"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Item Contacto">
+                        <div class="Titulo">Contacto</div>
+                        <form action="" method="post" id="formulario">
+                            <ul class="ListaFormulario">
+                                <li>
+                                    <label for="Nombre">Nombre Completo</label> 
+                                    <input type="text" name="Nombre" id="Nombre" value="" placeholder="Ingrese su nombre" onkeyup="ValidarEntrada('formulario')" required/>
+                                </li>
+                                <li> 
+                                    <label for="Email">Email</label>  
+                                    <input type="email" name="Email" id="Email" value="" placeholder="Ingrese su e-mail" onkeyup="ValidarEntrada('formulario')" required/>
+                                </li>
+                                <li>
+                                    <label for="Mensaje">Mensaje</label>
+                                    <textarea name="Mensaje" id="Mensaje" value="" cols="30" rows="10" placeholder="Escriba su mensaje" onkeyup="ValidarEntrada('formulario')" required></textarea>
+                                </li>
+                                <li>
+                                    <button type="submit" id="BotonEnviar" disabled="disabled">Enviar</button>
+                                </li>
+                                <li>
+                                    <p id="FormularioEnviado">Complete los campos para enviar su formulario</p>
+                                </li>
+                            </ul>
+            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="Columna_Der">
+                <div class="Item Nombre_y_Ocupacion">
+                    <div class="Nombre">Jorge Ruíz</div>
+                    <div class="Ocupación">Instructor de Yoga</div>
+                </div>
+                <div class="Item Educacion">
+                    <div class="Titulo">Educación</div>
+                    <div class="Informacion">
+                        <div class="Datos">
+                            <div class="Anio">2014</div>
+                            <div class="Contenido">
+                                <p>Certificado de Personal Trainer en Fitness Institute</p>
+                            </div>
+                        </div>
+                        <div class="Datos">
+                            <div class="Anio">2013</div>
+                            <div class="Contenido">
+                                <p>Certificado de Salud Deportiva en Instituto de Salud y Binestar</p>
+                            </div>
+                        </div>
+                        <div class="Datos">
+                            <div class="Anio">2012</div>
+                            <div class="Contenido">
+                                <p>Certificado de Nutrición Deportiva en Instituto de Salud y Binestar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Item Experiencia">
+                    <div class="Titulo">Experiencia</div>
+                    <div class="Informacion">
+                        <div class="Datos">
+                            <div class="Anio">2016 - Act</div>
+                            <div class="Contenido">
+                                <p><b>INSTRUCTOR DE YOGA</b><br>Anytime Fitness Group</p>
+                                <ul>
+                                    <li> <p>Diseño programas de entrenamiento para clientes de todas las edades y complexiones físicas. </p> </li>
+                                    <li> <p>Asisto al personal en la organización de entrenamientos individuales y actividades grupales.</p> </li>
+                                    <li> <p>Elaboro dietas personalizadas para cada cliente, según sus objetivos. </p> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="Datos">
+                            <div class="Anio">2014 - 2016</div>
+                            <div class="Contenido">
+                                <p><b>INSTRUCTOR DE PILATES</b><br>Sylver Gym</p>
+                                <ul>
+                                    <li> <p>Diseño programas de entrenamiento para clientes de todas las edades y complexiones físicas. </p> </li>
+                                    <li> <p>Asisto al personal en la organización de entrenamientos individuales y actividades grupales.</p> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Item Intereses">
+                    <div class="Titulo">Otros intereses</div>
+                    <div class="Informacion">
+                        <div class="Tipos_de_intereses">
+                            <div class="Icono_Intereses">
+                                <i class="fas fa-volleyball-ball"></i>
+                            </div>
+                            <div class="Dato_Intereses">Deportes</div>
+                        </div>
+                        <div class="Tipos_de_intereses">
+                            <div class="Icono_Intereses">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <div class="Dato_Intereses">Lectura</div>
+                        </div>
+                        <div class="Tipos_de_intereses">
+                            <div class="Icono_Intereses">
+                                <i class="fas fa-film"></i>
+                            </div>
+                            <div class="Dato_Intereses">Películas</div>
+                        </div>
+                        <div class="Tipos_de_intereses">
+                            <div class="Icono_Intereses">
+                                <i class="fas fa-biking"></i>
+                            </div>
+                            <div class="Dato_Intereses">Ciclismo</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="JS/codigo.js"></script>
+    </body>
+</html>
